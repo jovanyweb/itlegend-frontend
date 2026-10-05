@@ -1,0 +1,14 @@
+.video-player:hover > button {
+  visibility: visible;
+  opacity: 1;
+}
+.video-player:hover > div.video-overlay::after {
+  opacity: 0.7;
+}
+.video-player {
+  &:fullscreen .video-overlay,
+  &.wide .video-overlay,
+  &.wide {
+    width: 100%;
+  }
+}
