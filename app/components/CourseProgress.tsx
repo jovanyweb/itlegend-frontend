@@ -3,7 +3,7 @@ import React from "react";
 export default function CourseProgress() {
   return (
     <aside className="p-2 mt-10 mx-3.5">
-      <h3 className="font-600 text-[27px] mb-10">Topics of This Course</h3>
+      <h3 className="font-600 text-[27px] mb-12">Topics of This Course</h3>
       <span
         style={
           {
