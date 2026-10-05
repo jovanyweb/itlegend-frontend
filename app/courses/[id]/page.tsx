@@ -51,7 +51,7 @@ export default function CoursePage() {
               Starting SEO as your Home Based Business
             </h3>
             <div className="mt-6 mx-2.5">
-              <VideoPlayer video="/videos/4projects.mp4" />
+              <VideoPlayer video="https://cdn.pixabay.com/video/2015/12/11/1625-148614367_tiny.mp4" />
             </div>
             <CourseSectionLinks></CourseSectionLinks>
             <Popup open={isFormOpened} setOpen={setIsFormOpened}>
