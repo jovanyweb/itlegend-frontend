@@ -86,7 +86,7 @@ export default function Comments() {
               onChange={handleChange}
               onBlur={handleBlur}
               rows={6}
-              className={`mt-5 rounded-xl resize-none p-4 shadow-lg w-[95%] outline-none ${touched.question && errors.question && "border-[#e54860]"}`}
+              className={`mt-5 rounded-xl resize-none p-4 shadow-lg w-[95%] outline-none ${touched.comment && errors.comment && "border-[#e54860]"}`}
             ></textarea>
             {touched.comment && errors.comment && (
               <p className=" text-[#e54860] mt-2">{errors.comment}</p>
